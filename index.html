@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Codes</title>
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/fonts/bpg-arial-caps-master/css/bpg-arial-caps.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body>
+  <header class="flex-center">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://bsu.edu.ge/">
+          <img src="./assets/images/logo.png" alt="bsu_page">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#main">მთავარი</a>
+            <a class="nav-link" href="#aboutUs">ჩვენს შესახებ</a>
+            <a class="nav-link" href="#services">სერვისები</a>
+            <a class="nav-link" href="#group">ჯგუფი</a>
+            <a class="nav-link" href="#contact">კონტაქტი</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main data-bs-spy="scroll" data-target=".navbar" data-offset="50">
+    <section class="banner flex-center" id="main">
+      <section class="wrapper">
+        <aside class="left flex-center">
+          <aside class="content">
+            <aside class="top">
+              <h1>მრავალშრიანი QR კოდები</h1>
+            </aside>
+            <aside class="middle">
+              <h3>წარმოგიდგენთ მრავალ შრიან QR კოდებს</h3>
+            </aside>
+            <aside class="bottom">
+              <button onclick='redirectToPage("bsu.edu.ge")'>გაიგე მეტი</button>
+            </aside>
+          </aside>
+        </aside>
+        <aside class="right">
+          <article>
+            <img src="./assets/images/main_device_image.png" alt="default_device">
+          </article>
+        </aside>
+      </section>
+    </section>
+    <section class="info flex-center" id="aboutUs">
+      <section class="wrapper">
+        <aside class="top">
+          <h2>ჩვენს შესახებ</h2>
+        </aside>
+        <aside class="bottom">
+          <aside class="left">
+            <aside class="first">
+              <h3>ბათუმის შოთა რუსთაველის სახელმწიფო უნივერსიტეტის QR პროექტი</h3>
+              <p>სამეცნიერო პროექტი „საინფორმაციო სისტემების მრავალდონიანი მართვა QR კოდების მეშვეობით მულტიპლატფორმული
+                სისტემებისათვის“ შესრულებულია ბათუმის სახელმწიფო უნივერსიტეტის საგრანტო პროექტის ფარგლებში. იდეა
+                პრაქტიკულად განხორციელებულია და განხილულია უმაღლესი საგანმანათლებლო დაწესებულების (უნივერსიტეტის)
+                მაგალითზე. ასევე მოყვანილია ბიზნეს და სახელმწიფო ორგანიზაციების სხვადასხვა სფეროები სადაც შესძლებელია
+                მიღებული შედეგების წარმატებული პრაქტიკული დანერგვა.
+              </p>
+            </aside>
+            <aside class="second">
+              <p>მეტი ინფორმაციისთვის</p>
+              <button onclick="scrollToID('contact')" class="active active-color-border">დაგვიკავშირდით</button>
+            </aside>
+          </aside>
+          <aside class="right">
+            <img src="./assets/images/front_view.jpg" alt="bsu_view">
+          </aside>
+        </aside>
+      </section>
+    </section>
+    <section class="services flex-center" id="services">
+      <section class="wrapper">
+        <aside class="top flex-center">
+          <h2>სერვისები</h2>
+        </aside>
+        <aside class="bottom">
+          <article>
+            <aside class="top-icon flex-center">
+              <div class="icon flex-center">
+                <i class="fa-brands fa-android"></i>
+              </div>
+            </aside>
+            <aside class="middle">
+              <p>Android</p>
+            </aside>
+            <aside class="bottom-text">
+              <p>ვებ აპლიკაცია გამართულად მუშაობს Android ყოველ ვერსიაზე , სადაც მოწყობილობას არ აქვს პრობლემა ბრაუზერის
+                გამოყენებისას</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="top-icon flex-center">
+              <div class="icon flex-center">
+                <i class="fa-brands fa-apple"></i>
+              </div>
+            </aside>
+            <aside class="middle">
+              <p>Apple IOS</p>
+            </aside>
+            <aside class="bottom-text">
+              <p>ვებ აპლიკაცია გამართულად მუშაობს IOS ყოველ ვერსიაზე , სადაც მოწყობილობას არ აქვს პრობლემა ბრაუზერის
+                გამოყენებისას</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="top-icon flex-center">
+              <div class="icon flex-center">
+                <i class="fa-brands fa-angular"></i>
+              </div>
+            </aside>
+            <aside class="middle">
+              <p>Design</p>
+            </aside>
+            <aside class="bottom-text">
+              <p>პროექტის კლიენტის მხარე შესრულებულია <a href="https://angular.io/" target="_blank">Angular</a> ის
+                გამოყენებით</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="top-icon flex-center">
+              <div class="icon flex-center">
+                <i class="fa-solid fa-qrcode"></i>
+              </div>
+            </aside>
+            <aside class="middle">
+              <p>QR</p>
+            </aside>
+            <aside class="bottom-text">
+              <p>აპლიკაციის გამოსაყენებლად მხოლოდ QR დასკანერება არის საჭირო</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="top-icon flex-center">
+              <div class="icon flex-center">
+                <i class="fa-solid fa-hashtag"></i>
+              </div>
+            </aside>
+            <aside class="middle">
+              <p>ინფორმაცია</p>
+            </aside>
+            <aside class="bottom-text">
+              <p>მარტივად მიწვდომადი ინფორმაცია</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="top-icon flex-center">
+              <div class="icon flex-center">
+                <i class="fa-solid fa-users"></i>
+              </div>
+            </aside>
+            <aside class="middle">
+              <p>მრავალი შედეგი</p>
+            </aside>
+            <aside class="bottom-text">
+              <p>ერთი QR კოდის დასკანერების შემდგომ შესაძლებელია სხვადასხვა შედეგის ხილვა</p>
+            </aside>
+          </article>
+        </aside>
+      </section>
+    </section>
+    <section class="group flex-center" id="group">
+      <section class="wrapper">
+        <aside class="top">
+          <h2>ჯგუფი</h2>
+          <p>პროექტის წევრები</p>
+        </aside>
+        <aside class="bottom">
+          <article>
+            <aside class="image-holder">
+              <img src="./assets/images/gregory_kakhiani_img.jpg" alt="personal_image">
+            </aside>
+            <aside class="name">
+              <h3>
+                <a href="https://www.linkedin.com/in/gregory-kakhiani-6057a040/" target="_blank">გრიგოლ კახიანი</a>
+              </h3>
+              <p>ასოც. პროფესორი</p>
+            </aside>
+            <aside class="description">
+              <p>gregory.kakhiani@bsu.edu.ge</p>
+              <p>+995551008270</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="image-holder">
+              <img src="./assets/images/zaza_davitadze_img.jpg" alt="personal_image">
+            </aside>
+            <aside class="name">
+              <h3>
+                <a href="https://www.linkedin.com/in/zaza-davitadze-a234a082/" target="_blank">ზაზა დავითაძე</a>
+              </h3>
+              <p>ასოც. პროფესორი</p>
+            </aside>
+            <aside class="description">
+              <p>zazadavi@yahoo.com</p>
+              <p>+995574450530</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="image-holder">
+              <img src="./assets/images/zurab_meskhidze_img.jpg" alt="personal_image">
+            </aside>
+            <aside class="name">
+              <h3>
+                <a href="https://www.linkedin.com/in/zurab-meskhidze-a03838121/" target="_blank">ზურაბ მესხიძე</a>
+              </h3>
+              <p>ლექტორი</p>
+            </aside>
+            <aside class="description">
+              <p>+995577179125</p>
+              <p class="hide">.</p>
+            </aside>
+          </article>
+          <article>
+            <aside class="image-holder">
+              <img src="./assets/images/konstantine_datunishvili_img.jpg" alt="personal_image">
+            </aside>
+            <aside class="name">
+              <h3>
+                <a href="https://www.linkedin.com/in/kostad/" target="_blank">კონსტანტინე დათუნიშვილი</a>
+              </h3>
+              <p>სტუდენტი</p>
+              <p>kdautinishvili@gmail.com</p>
+              <p>+995574396611</p>
+            </aside>
+          </article>
+        </aside>
+      </section>
+    </section>
+    <footer class="flex-center" id="contact">
+      <section class="wrapper">
+        <aside class="top flex-center">
+          <h2>კონტაქტი</h2>
+        </aside>
+        <aside class="middle">
+          <aside class="left">
+            <div class="wrap">
+              <p>მისამართი</p>
+              <p>რუსთაველის/ნინოშვილის ქ. 32/35</p>
+            </div>
+            <div class="wrap">
+              <p>ტელეფონის ნომერი</p>
+              <p>+995(422) 27 17 86</p>
+            </div>
+            <div class="wrap">
+              <p>ტელეფონის ნომერი</p>
+              <p>+995(422) 27 17 86</p>
+            </div>
+            <div class="wrap">
+              <p>ელ.ფოსტა</p>
+              <p>info@bsu.edu.ge</p>
+            </div>
+          </aside>
+          <aside class="right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1437.8994755413985!2d41.6260212898325!3d41.64990484924612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067866a2edc5d9d%3A0x4fc48bfea5fdb3cf!2sBatumi%20Shota%20Rustaveli%20State%20University!5e1!3m2!1ska!2sge!4v1670275476653!5m2!1ska!2sge"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </aside>
+        </aside>
+        <aside class="bottom flex-center">
+          <p>ყველა უფლება დაცულია © 2020</p>
+        </aside>
+      </section>
+    </footer>
+  </main>
+  <script src="https://kit.fontawesome.com/af6bc85f41.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

@@ -303,7 +303,6 @@ main .group .wrapper .bottom {
   display: flex;
   justify-content: space-around;
   align-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
   gap: 50px;
 }
